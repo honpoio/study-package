@@ -13,8 +13,8 @@ class CalculatorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // $this->app->make('yamashirotest\hogeyamatest\CalculatorController');
-        // $this->loadViewsFrom(__DIR__.'/views', 'hogeyamatest');
+        $this->app->make('yamashirotest\hogeyamatest\CalculatorController');
+        $this->loadViewsFrom(__DIR__.'/views', 'hogeyamatest');
     }
 
     /**

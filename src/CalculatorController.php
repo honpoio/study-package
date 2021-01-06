@@ -11,7 +11,7 @@ class CalculatorController extends Controller
     //
     public function add($a, $b){
         $result = $a + $b;
-        return view('yamashirotest::add', compact('result'));
+        return view('hogeyamatest::add', compact('result'));
     }
 
     public function subtract($a, $b){
