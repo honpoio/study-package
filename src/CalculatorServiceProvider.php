@@ -1,6 +1,6 @@
 <?php
 
-namespace devdojo\Calculator;
+namespace yamashirotest;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,8 +13,8 @@ class CalculatorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Devdojo\Calculator\CalculatorController');
-        $this->loadViewsFrom(__DIR__.'/views', 'calculator');
+        $this->app->make('yamashirotest\CalculatorController');
+        $this->loadViewsFrom(__DIR__.'/views', 'yamashirotest');
     }
 
     /**

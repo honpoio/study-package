@@ -1,5 +1,5 @@
 {
-    "name": "devdojo/calculator",
+    "name": "yamashirotest",
     "description": "demo",
     "type": "library",
     "authors": [
@@ -16,7 +16,7 @@
 
     "autoload": {
         "psr-4": { 
-            "Devdojo\\Calculator\\": "packages/devdojo/calculator/src"
+            "yamashirotest\\": "packages/yamashirotest/src"
         }
 	}
 }
