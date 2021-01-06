@@ -1,6 +1,6 @@
 <?php
 
-namespace yamashirotest;
+namespace yamashirotest\hogeyamatest;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -16,7 +16,7 @@
 
     "autoload": {
         "psr-4": { 
-            "yamashirotest\\": "packages/yamashirotest/src"
+            "yamashirotest\\hogeyamatest\\": "packages/yamashirotest/hogeyamatest/src"
         }
 	}
 }
