@@ -1,0 +1,22 @@
+{
+    "name": "devdojo/calculator",
+    "description": "demo",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tony lea",
+            "email": "tony@devdojo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "require": {
+        "php": ">=7" 
+    },
+
+    "autoload": {
+        "psr-4": { 
+            "Devdojo\\Calculator\\": "packages/devdojo/calculator/src"
+        }
+	}
+}
