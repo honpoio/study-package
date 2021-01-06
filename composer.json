@@ -16,7 +16,7 @@
 
     "autoload": {
         "psr-4": { 
-            "yamashirotest\\hogeyamatest\\": "/yamashirotest/hogeyamatest/src"
+            "yamashirotest\\hogeyamatest\\": "src"
         }
 	}
 }
